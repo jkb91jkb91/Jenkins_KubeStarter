@@ -16,6 +16,26 @@ Technologies used to create this site:
 * ![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
 * ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 
+
+
+<!-- DETAILED DESCRIPTION -->
+## Detailed description
+
+FIRST STEP  
+
+
+SECOND STEP  
+
+
+### FIRST STEP DETAILED  >>> setup_terraform_and_ansible.sh >>> description of the process
+
+
+### SECOND STEP DETAILED  >>> prepare_for_ansible.sh >>> description of the process
+
+### FINAL RESULT
+   
+
+
   
 <!-- AUTHOR -->
 ## Author
