@@ -7,18 +7,13 @@ This repository is used as a part of bigger project and it is triggered by JENKI
 https://github.com/jkb91jkb91/JenkinsCreator  
 It is going to deploy kubernetes cluster on EC2 intances on AWS  
 
-CODE FROM THIS REPO WILL BE TRIGGERED BY THIS JOBS  
-JOB1 = A_terraform_stack_create.json  
-JOB2 = B_ansible_stack_create.json  
-JOB3 = C_ansible_stack_delete.json  
-JOB4 = D_terraform_stack_delete.json  
-
 This repository contains files related to IaC  
 -terraform  
 -ansible  
-additional files:   
--bashrc file  
--prepare_for_ansible.sh (to get IP and SSH KEY on local machine)  
+
+additional files:  
+  -bashrc
+  -prepare_for_ansible.sh (to get IP and SSH KEY on local machine) 
 
 <!-- TECHNOLOGIES -->
 ## Technologies
@@ -33,9 +28,15 @@ Technologies used to create this site:
 
 <!-- DETAILED DESCRIPTION -->
 ## Detailed description
-Jenkins Jobs uses this repo in their "steps"  
-Jenkins with JOBS should be created as prerequisuite in this project:
-https://github.com/jkb91jkb91/JenkinsCreator  
+
+CODE FROM THIS REPO WILL BE TRIGGERED BY THIS JOBS (prerequisuite >>  https://github.com/jkb91jkb91/JenkinsCreator)  
+Prerequisuite step will create for us JENKINS instance and bootstrap it with such JOBS  
+JOB1 = A_terraform_stack_create.json  
+JOB2 = B_ansible_stack_create.json  
+JOB3 = C_ansible_stack_delete.json  
+JOB4 = D_terraform_stack_delete.json  
+
+   
 
 STEP CREATION
 To create the whole stack do:  
