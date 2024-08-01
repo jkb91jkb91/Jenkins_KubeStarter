@@ -12,7 +12,7 @@ This repository contains files related to IaC
 -ansible  
 
 additional files:  
-  -bashrc
+  -bashrc  
   -prepare_for_ansible.sh (to get IP and SSH KEY on local machine) 
 
 <!-- TECHNOLOGIES -->
