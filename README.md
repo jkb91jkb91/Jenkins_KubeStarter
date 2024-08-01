@@ -1,5 +1,6 @@
 # Creation of Kubernetes Cluster using kubeadm on AWS EC2 with the help of IaC: Terraform and Ansible  
-<a name="readme-top"></a>
+<a name="readme-top"></a>  
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project  
 This repository is used as a part of bigger project and it is triggered by JENKINS JOBS created as prerequsuite here:
@@ -31,14 +32,23 @@ Technologies used to create this site:
 
 <!-- DETAILED DESCRIPTION -->
 ## Detailed description
-Jenkins JOBS created in project:
-https://github.com/jkb91jkb91/JenkinsCreator 
+Jenkins Jobs uses this repo in their "steps"  
+Jenkins with JOBS should be created as prerequisuite in this project:
+https://github.com/jkb91jkb91/JenkinsCreator  
 
+STEP CREATION
 To create the whole stack do:  
 manual trigger ONLY JOB1: (JOB1 = A_terraform_stack_create.json >--automatically triggered-> JOB2 = B_ansible_stack_create.json)  
 
+STEP REMOVING
 To delete the whole stack do:  
 manual trigger ONLY JOB3: (JOB3 = C_ansible_stack_delete.json >--automatically triggered-> D_terraform_stack_delete.json)  
+
+<!-- RESULT -->
+## Result
+
+STEP CREATION WILL RESULT WITH = Created kubeadm kubernetes cluster with master and worker nodes being deployed on EC2 AWS instances  
+STEP REMOVING WILL RESULT WITH = Removing whole stack from AWS  
 
 <!-- AUTHOR -->
 ## Author
