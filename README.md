@@ -5,7 +5,7 @@
 ## About The Project  
 This repository is used as a part of bigger project and it is a first step and prerequisuite for step 2 and 3:
 
-Prerequisuite step>>>  1) https://github.com/jkb91jkb91/JenkinsCreator  
+Prerequisuite step >>>  1) https://github.com/jkb91jkb91/JenkinsCreator  
 **Current step >>> 2) https://github.com/jkb91jkb91/Jenkins_KubeStarter**  
 Next step  >>> 3) https://github.com/jkb91jkb91/KubeServices  
 
