@@ -1,4 +1,5 @@
-# Creation of Kubernetes Cluster using kubeadm on AWS EC2 with the help of IaC: Terraform and Ansible  
+# Creation of Kubernetes Cluster using kubeadm  
+# on AWS EC2 with the help of IaC: Terraform and Ansible  
 <a name="readme-top"></a>  
 
 <!-- ABOUT THE PROJECT -->
