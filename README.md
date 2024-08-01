@@ -44,7 +44,7 @@ manual trigger ONLY JOB1: (JOB1 = A_terraform_stack_create.json >--automatically
 
 STEP REMOVING
 To delete the whole stack do:  
-manual trigger ONLY JOB3: (JOB3 = C_ansible_stack_delete.json >--automatically triggered-> D_terraform_stack_delete.json)  
+manual trigger ONLY JOB3: (JOB3 = C_ansible_stack_delete.json   >--automatically triggered-> JOB4 D_terraform_stack_delete.json)  
 
 <!-- RESULT -->
 ## Result
