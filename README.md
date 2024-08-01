@@ -49,8 +49,8 @@ manual trigger ONLY JOB3: (JOB3 = C_ansible_stack_delete.json >--automatically t
 <!-- RESULT -->
 ## Result
 
-STEP CREATION WILL RESULT WITH = Created kubeadm kubernetes cluster with master and worker nodes being deployed on EC2 AWS instances  
-STEP REMOVING WILL RESULT WITH = Removing whole stack from AWS  
+STEP CREATION RESULT = Created kubeadm kubernetes cluster with master and worker nodes being deployed on EC2 AWS instances  
+STEP REMOVING RESULT = Removing whole stack from AWS  
 
 <!-- AUTHOR -->
 ## Author
