@@ -6,9 +6,9 @@
 This repository is used as a part of bigger project and it is a first step and prerequisuite for step 2 and 3:
 
 STEPS:  
-Prerequisuite step >>>  1) https://github.com/jkb91jkb91/JenkinsCreator  # Creates Jenkins instance with jobs
+Prerequisuite step >>>  1) https://github.com/jkb91jkb91/JenkinsCreator  # Creates Jenkins instance with jobs  
 **Current step >>> 2) https://github.com/jkb91jkb91/Jenkins_KubeStarter**  
-Next step  >>> 3) https://github.com/jkb91jkb91/KubeServices             # Deploying helm charts
+Next step  >>> 3) https://github.com/jkb91jkb91/KubeServices             # Deploying helm charts  
 
 Code from this repository is meant to deploy kubernetes cluster on EC2 intances    
 
