@@ -5,11 +5,11 @@
 This repository is used as a part of bigger project and it is triggered by JENKINS JOBS created as prerequsuite here:
 https://github.com/jkb91jkb91/JenkinsCreator  
 
-CODE FROM THIS REPO WILL BE TRIGGERED BY THIS JOBS
-JOB1 = A_terraform_stack_create.json
-JOB2 = B_ansible_stack_create.json
-JOB3 = C_ansible_stack_delete.json
-JOB4 = D_terraform_stack_delete.json 
+CODE FROM THIS REPO WILL BE TRIGGERED BY THIS JOBS  
+JOB1 = A_terraform_stack_create.json  
+JOB2 = B_ansible_stack_create.json  
+JOB3 = C_ansible_stack_delete.json  
+JOB4 = D_terraform_stack_delete.json  
 
 This repository contains files related to IaC  
 -terraform  
