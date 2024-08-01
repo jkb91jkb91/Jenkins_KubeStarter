@@ -30,7 +30,8 @@ Technologies used to create this site:
 ## Detailed description
 
 CODE FROM THIS REPO WILL BE TRIGGERED BY THIS JOBS (prerequisuite >>  https://github.com/jkb91jkb91/JenkinsCreator)  
-Prerequisuite step will create for us JENKINS instance and bootstrap it with such JOBS  
+Prerequisuite step will create for us JENKINS instance and bootstrap it with such jobs:  
+
 JOB1 = A_terraform_stack_create.json  
 JOB2 = B_ansible_stack_create.json  
 JOB3 = C_ansible_stack_delete.json  
