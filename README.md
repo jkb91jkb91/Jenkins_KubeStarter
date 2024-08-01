@@ -18,7 +18,7 @@ additional files:
 <!-- TECHNOLOGIES -->
 ## Technologies
 
-Technologies used to create this site:
+Technologies:
 * ![AWS EC2](https://img.shields.io/badge/AWS%20EC2-232F3E?style=for-the-badge&logo=amazon%20aws&logoColor=white)
 * ![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
 * ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
