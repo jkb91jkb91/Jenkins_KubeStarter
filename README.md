@@ -2,9 +2,14 @@
 <a name="readme-top"></a>
 <!-- ABOUT THE PROJECT -->
 ## About The Project  
-This repository is used as a part of bigger project and used to create 2 Jenkins JOBS  
-1) FIRST JOB: Terraform files are used to create EC2 instances and response with output  
-2) SECOND JOB: Ansible files are used to provision EC2 instances based on output taken from terraform output  
+This repository is used as a part of bigger project and it is triggered by JENKINS JOBS created as prerequsuite here:
+https://github.com/jkb91jkb91/JenkinsCreator  
+
+CODE FROM THIS REPO WILL BE TRIGGERED BY THIS JOBS
+JOB1 = A_terraform_stack_create.json
+JOB2 = B_ansible_stack_create.json
+JOB3 = C_ansible_stack_delete.json
+JOB4 = D_terraform_stack_delete.json 
 
 This repository contains files related to IaC  
 -terraform  
@@ -23,8 +28,21 @@ Technologies used to create this site:
 * ![Route 53](https://img.shields.io/badge/Route%2053-232F3E?style=for-the-badge&logo=amazon%20route%2053&logoColor=white)
 * ![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
 * ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-  
+
+<!-- DETAILED DESCRIPTION -->
+## Detailed description
+Jenkins JOBS created in project:
+https://github.com/jkb91jkb91/JenkinsCreator 
+
+To create the whole stack do:  
+manual trigger ONLY JOB1: (JOB1 = A_terraform_stack_create.json >--automatically triggered-> JOB2 = B_ansible_stack_create.json)  
+
+To delete the whole stack do:  
+manual trigger ONLY JOB3: (JOB3 = C_ansible_stack_delete.json >--automatically triggered-> D_terraform_stack_delete.json)  
+
 <!-- AUTHOR -->
 ## Author
+Email: jakub.g26101991@gmail.com
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
