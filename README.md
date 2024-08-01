@@ -6,9 +6,11 @@
 This repository is used as a part of bigger project and it is a first step and prerequisuite for step 2 and 3:
 
 Prerequisuite:  
-1) https://github.com/jkb91jkb91/Jenkins_KubeStarter  
+1) https://github.com/jkb91jkb91/JenkinsCreator
+   
 Current step:  
-2) https://github.com/jkb91jkb91/Jenkins_KubeStarter  
+2) https://github.com/jkb91jkb91/Jenkins_KubeStarter
+ 
 Another step:  
 3) https://github.com/jkb91jkb91/KubeServices  
 
