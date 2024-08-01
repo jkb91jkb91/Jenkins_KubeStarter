@@ -7,11 +7,11 @@ This repository is used as a part of bigger project and used to create 2 Jenkins
 2) SECOND JOB: Ansible files are used to provision EC2 instances based on output taken from terraform output  
 
 This repository contains files related to IaC  
--Terraform  
--Ansible  
--additionally it contains also:    
-  -bashrc file  
-  -script to get IP and SSH KEY on local machine  
+-terraform  
+-ansible  
+additional files:   
+-bashrc file  
+-prepare_for_ansible.sh (to get IP and SSH KEY on local machine)  
 T
 <!-- TECHNOLOGIES -->
 ## Technologies
