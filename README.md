@@ -1,11 +1,11 @@
 # Creation of Kubernetes Cluster using kubeadm  
-# on AWS EC2 with the help of IaC: Terraform and Ansible  
 <a name="readme-top"></a>  
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project  
 This repository is used as a part of bigger project and it is triggered by JENKINS JOBS created as prerequsuite here:
 https://github.com/jkb91jkb91/JenkinsCreator  
+It is going to deploy kubernetes cluster on EC2 intances on AWS  
 
 CODE FROM THIS REPO WILL BE TRIGGERED BY THIS JOBS  
 JOB1 = A_terraform_stack_create.json  
