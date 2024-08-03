@@ -3,7 +3,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project  
-This repository is used as a part of bigger project and it is a first step and prerequisuite for step 2 and 3:
+This repository is used as a part of bigger project and it is a second step and prerequisuite for step 3:
   
 
 | Step              | Link                                                                                          | Description                                             |
